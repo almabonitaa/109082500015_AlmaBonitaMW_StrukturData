@@ -258,7 +258,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul1/output/output-soal1.png)
 
 Program ini digunakan untuk menghitung penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan bertipe float.
 
@@ -350,7 +350,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/output/output-soal3.png)
+![Screenshot Output Unguided 3_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul1/output/output-soal3.png)
 
 Program ini digunakan untuk menampilkan pola angka berbentuk segitiga terbalik dengan menggunakan perulangan for.
 
