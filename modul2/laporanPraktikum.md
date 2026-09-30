@@ -4,7 +4,7 @@
 
 ## Dasar Teori
 
-Code::Blocks merupakan Integrated Development Environment (IDE) gratis dan open-source yang berorientasi pada bahasa C, C++, dan Fortran, di mana bahasa C++ sendiri dikembangkan oleh Bjarne Stroustrup pada awal tahun 1980-an sebagai perluasan dari bahasa C. Secara struktur, program C++ terdiri atas pendeklarasian pustaka (seperti <iostream>), fungsi, serta fungsi utama main() yang didukung oleh penggunaan identifier, tipe data dasar, berbagai jenis operator aritmatika maupun logika, perintah input/output (cin/cout), struktur kondisional (if-else, switch), perulangan (looping), hingga tipe data bentukan (struct) untuk membangun program yang terstruktur.
+Pada modul ini dibahas beberapa konsep dasar dalam bahasa C++ yang berkaitan dengan pengolahan data dan pembuatan program. Materinya meliputi array, pointer, string, fungsi, prosedur, serta cara mengirimkan parameter ke dalam fungsi. Konsep-konsep tersebut digunakan agar program dapat mengelola data dengan lebih baik dan memiliki struktur yang lebih jelas.
 
 ### A. Array dan Pointer<br/>
 
@@ -351,6 +351,13 @@ Selain itu, penggunaan array, struct, dan fungsi dapat membantu membuat program 
 
 ## Referensi
 
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>Suryana, T. (2004). Pemrograman C++ Builder 6. Bandung: Universitas Komputer Indonesia. Materi ini membahas dasar pemrograman C++ dan struktur perulangan seperti for.<br>[4] Nurhayati, S. (2013). Konsep Dasar Algoritma dan Pemrograman Terstruktur. Bandung: Universitas Komputer Indonesia. Materinya membahas konsep dasar algoritma dan pemrograman terstruktur.<br>[5] Mardzuki, T. H. (2016). Struktur Algoritma (Runtunan dan Pemilihan Analisis Satu Kasus). Bandung: Universitas Komputer Indonesia. Materi ini membahas struktur runtunan, pemilihan, dan pengulangan dalam algoritma.
+<br>[1] Triase. (2020). *Diktat Edisi Revisi: Struktur Data*. Medan: Universitas Islam Negeri Sumatera Utara Medan.
+
+<br>[2] Indahyati, U., & Rahmawati, Y. (2020). *Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++*. Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
+
+<br>[3] Suryana, T. (2004). *Pemrograman C++ Builder 6*. Bandung: Universitas Komputer Indonesia. Materi ini membahas dasar pemrograman C++.
+
+<br>[4] Nurhayati, S. (2013). *Konsep Dasar Algoritma dan Pemrograman Terstruktur*. Bandung: Universitas Komputer Indonesia. Materi ini membahas konsep dasar algoritma dan pemrograman terstruktur.
+
+<br>[5] Kadir, A. (2017). *Dasar Logika Pemrograman Komputer*. Jakarta: Elex Media Komputindo. Materi ini membahas konsep dasar pemrograman yang berkaitan dengan penggunaan variabel, array, fungsi, dan struktur program.
+
