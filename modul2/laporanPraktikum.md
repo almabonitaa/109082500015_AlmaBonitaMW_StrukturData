@@ -220,7 +220,7 @@ Program ini membandingkan tiga cara pengiriman parameter pada fungsi, yaitu call
 
 ## Unguided
 
-### 1. (Buatlah program yang menerima input-an dua buah bilangan betipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.)
+### 1. (Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian matriks 3x3.)
 
 ```C++
 #include <iostream>
@@ -248,11 +248,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul2/output/output-soal1.png)
 
-Program ini digunakan untuk menghitung penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan bertipe float.
+Program pertama digunakan untuk melakukan penjumlahan, pengurangan, dan perkalian pada matriks 3×3 menggunakan array dua dimensi.
 
-### 2. (Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100)
+### 2. (Berdasarkan guided pointer dan reference sebelumnya, buatlah keduanya dapat menukar nilai dari 3 variabel.)
 
 ```C++
 #include <iostream>
@@ -297,11 +297,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul1/output/output-soal2.png)
+![Screenshot Output Unguided 2_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul2/output/output-soal2.png)
 
-Program ini digunakan untuk mengubah angka 0–100 menjadi bentuk tulisan dalam bahasa Indonesia menggunakan percabangan if-else.
+Program kedua digunakan untuk menukar nilai tiga variabel dengan menggunakan pointer dan reference.
 
-### 3. (Buatlah program yang dapat memberikan input dan output sbb.)
+### 3. (Diketahui sebuah array 1 dimensi sebagai berikut : arrA = {48, 2, 7 , 21, 5, 20, 77, 9, 10, 1} Buatlah program yang dapat mencari nilai minimum, maksimum, dan rata – rata dari array tersebut! Kerjakan soal dengan ketentuan : - Untuk mencari nilai minimum dan maksimum, harus dibuat menjadi sebuah function. - Untuk mencari rata-rata harus dibuat menjadi sebuah procedure. - Buat output di fungsi utama (main) untuk menampilkan nilai rata-rata yang sudah didapatkan melalui procedure sebelumnya. (Gunakan metode pass by reference atau pass by pointer) - Buat menu sederhana untuk menjalankan setiap procedure).
 
 ```C++
 #include <iostream>
@@ -340,14 +340,18 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul1/output/output-soal3.png)
+![Screenshot Output Unguided 3_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul2/output/output-soal3.png)
 
-Program ini digunakan untuk menampilkan pola angka berbentuk segitiga terbalik dengan menggunakan perulangan for.
+##### Output 2
+
+![Screenshot Output Unguided 3_2](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul2/output/output-soal3(2).png)
+
+Program ketiga digunakan untuk menampilkan isi array, mencari nilai maksimum dan minimum menggunakan function, serta menghitung rata-rata menggunakan procedure.
 
 ## Kesimpulan
 
-Berdasarkan praktikum Modul 1, dapat disimpulkan bahwa C++ memiliki beberapa dasar penting yang perlu dipahami dalam membuat program, seperti penggunaan variabel dan tipe data, input dan output, operator, percabangan, perulangan, array, struct, serta fungsi. Melalui praktikum ini, saya juga memahami bahwa setiap struktur program memiliki kegunaan yang berbeda, seperti if-else dan switch-case untuk menentukan kondisi, sedangkan for, while, dan do-while digunakan untuk melakukan perulangan. 
-Selain itu, penggunaan array, struct, dan fungsi dapat membantu membuat program lebih terstruktur dan mudah dipahami. Dari soal unguided, saya dapat menerapkan materi tersebut untuk membuat program perhitungan aritmatika, mengubah angka menjadi tulisan, serta membuat pola angka menggunakan perulangan. Dengan praktikum ini, pemahaman dasar pemrograman C++ menjadi lebih baik dan dapat menjadi dasar untuk mempelajari materi pemrograman selanjutnya.
+BBerdasarkan praktikum Modul 2, dapat disimpulkan bahwa bahasa C++ memiliki beberapa konsep penting untuk mengolah data dan membuat program menjadi lebih terstruktur. Pada praktikum ini dipelajari penggunaan array satu dimensi dan dua dimensi, pointer, string, fungsi, prosedur, serta berbagai cara pengiriman parameter seperti call by value, call by pointer, dan call by reference. Setiap konsep memiliki kegunaan masing-masing dalam menyimpan, mengolah, dan menampilkan data pada program.
+Dari percobaan yang dilakukan, penggunaan fungsi dan prosedur dapat membuat program lebih rapi karena tugas tertentu dapat dipisahkan ke dalam bagian yang berbeda. Pointer dan reference juga dapat digunakan untuk mengubah nilai variabel secara langsung, sedangkan array memudahkan dalam menyimpan banyak data. Melalui praktikum ini, pemahaman mengenai dasar pemrograman C++ menjadi lebih baik dan dapat digunakan untuk membuat program yang lebih terstruktur serta sesuai dengan kebutuhan.
 
 ## Referensi
 
@@ -360,4 +364,3 @@ Selain itu, penggunaan array, struct, dan fungsi dapat membantu membuat program 
 <br>[4] Nurhayati, S. (2013). *Konsep Dasar Algoritma dan Pemrograman Terstruktur*. Bandung: Universitas Komputer Indonesia. Materi ini membahas konsep dasar algoritma dan pemrograman terstruktur.
 
 <br>[5] Kadir, A. (2017). *Dasar Logika Pemrograman Komputer*. Jakarta: Elex Media Komputindo. Materi ini membahas konsep dasar pemrograman yang berkaitan dengan penggunaan variabel, array, fungsi, dan struktur program.
-
