@@ -543,56 +543,79 @@ Program ini digunakan untuk membuat dan mengelola Singly Linked List yang berisi
 
 ```C++
 //singlylist.cpp
-#include "singlylist.h"
+#include "Singlylist.h"
+#include <iostream>
+using namespace std;
 
 void createList(List &L) {
-    L.First = Nil;
+    L.First = nullptr;
 }
 
 address alokasi(infotype x) {
     address P = new ElmList;
     P->info = x;
-    P->next = Nil;
+    P->next = nullptr;
     return P;
 }
 
 void dealokasi(address &P) {
-    P->next = Nil;
     delete P;
-}
-
-void printInfo(List L) {
-    address P = L.First;
-    while (P != Nil) {
-        cout << P->info << " ";
-        P = P->next;
-    }
-    cout << endl;
+    P = nullptr;
 }
 
 void insertFirst(List &L, address P) {
     P->next = L.First;
     L.First = P;
 }
+
+void printInfo(List L) {
+    address P = L.First;
+
+    while (P != nullptr) {
+        cout << P->info << " ";
+        P = P->next;
+    }
+
+    cout << endl;
+}
+
+address findElm(List L, infotype x) {
+    address P = L.First;
+
+    while (P != nullptr) {
+        if (P->info == x) {
+            return P;
+        }
+        P = P->next;
+    }
+
+    return nullptr;
+}
+
+int totalInfo(List L) {
+    address P = L.First;
+    int total = 0;
+
+    while (P != nullptr) {
+        total = total + P->info;
+        P = P->next;
+    }
+
+    return total;
+}
 ```
 ```C++
 //singlylist.h
-#ifndef SINGLYLIST_H_INCLUDED
-#define SINGLYLIST_H_INCLUDED
-
-#include <iostream>
-using namespace std;
-
-#define Nil NULL
+#ifndef SINGLYLIST_H
+#define SINGLYLIST_H
 
 typedef int infotype;
+typedef struct ElmList *address;
 
 struct ElmList {
     infotype info;
-    ElmList* next;
+    address next;
 };
-
-typedef ElmList* address;
 
 struct List {
     address First;
@@ -603,12 +626,16 @@ address alokasi(infotype x);
 void dealokasi(address &P);
 void printInfo(List L);
 void insertFirst(List &L, address P);
+address findElm(List L, infotype x);
+int totalInfo(List L);
 
-#endif 
+#endif
 ```
 ```C++
 //main.cpp
-#include "singlylist.h"
+#include <iostream>
+#include "Singlylist.h"
+using namespace std;
 
 int main() {
     List L;
@@ -631,7 +658,19 @@ int main() {
     P5 = alokasi(9);
     insertFirst(L, P5);
 
+    cout << "Isi linked list: ";
     printInfo(L);
+
+    address P = findElm(L, 8);
+
+    if (P != nullptr) {
+        cout << P->info << " ditemukan dalam list" << endl;
+    } else {
+        cout << "Data tidak ditemukan dalam list" << endl;
+    }
+
+    cout << "Total info dari kelima elemen adalah "
+         << totalInfo(L) << endl;
 
     return 0;
 }
