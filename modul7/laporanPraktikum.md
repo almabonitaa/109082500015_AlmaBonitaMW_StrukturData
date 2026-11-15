@@ -680,7 +680,7 @@ Program tersebut merupakan implementasi struktur data Stack (tumpukan) berbasis 
 
 ## Kesimpulan
 
-Berdasarkan praktikum Modul 6, dapat disimpulkan bahwa Doubly Linked List merupakan struktur data yang dapat digunakan untuk menyimpan dan mengelola data dengan bantuan dua pointer, yaitu next dan prev. Pada praktikum ini dipelajari cara membuat ADT Doubly Linked List serta menerapkan berbagai operasi, seperti insert, delete, searching, update, dan menampilkan data. Melalui latihan pengelolaan data makanan dan kendaraan, dapat dipahami bahwa Doubly Linked List memudahkan proses penambahan, pencarian, perubahan, dan penghapusan data secara lebih teratur menggunakan bahasa C++.
+Berdasarkan praktikum Modul 7, dapat disimpulkan bahwa Stack merupakan struktur data yang menggunakan prinsip LIFO (Last In First Out), yaitu data yang terakhir masuk akan menjadi data pertama yang keluar. Pada praktikum ini dipelajari cara membuat Stack menggunakan dua bentuk, yaitu array dan Linked List, serta memahami fungsi-fungsi seperti push untuk menambahkan data, pop untuk menghapus data paling atas, update untuk mengubah data, view untuk menampilkan data, dan search untuk mencari data. Selain itu, melalui latihan yang diberikan, dipelajari juga cara membalik urutan Stack, memasukkan data secara berurutan (ascending), dan membaca input angka dari pengguna. Dengan praktikum ini, dapat dipahami bagaimana Stack bekerja dan bagaimana cara mengelola data menggunakan bahasa C++.
 
 ## Referensi
 
