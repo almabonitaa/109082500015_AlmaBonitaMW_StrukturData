@@ -785,7 +785,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul10/output/Output1.png)
+![Screenshot Output Unguided 1_1](https://github.com/almabonitaa/109082500015_AlmaBonitaMW_StrukturData/blob/main/modul10/output/output1.png)
 
 Program ini dibuat untuk memahami penerapan struktur data Binary Search Tree menggunakan bahasa C++. Melalui program ini, kita dapat memasukkan dan mencari data, menampilkan isi tree menggunakan metode InOrder, PreOrder, dan PostOrder, serta menghitung jumlah node, total nilai, dan kedalaman maksimal tree. Penggunaan fungsi rekursif membuat proses pengolahan data pada tree menjadi lebih mudah karena setiap fungsi dapat memanggil dirinya sendiri untuk memproses bagian kiri dan kanan tree.
 
